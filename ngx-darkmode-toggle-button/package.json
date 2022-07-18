@@ -1,5 +1,5 @@
 {
-  "name": "example-app",
+  "name": "ngx-darkmode-toggle-button",
   "version": "0.1.0",
   "scripts": {
     "ng": "ng",
@@ -9,6 +9,21 @@
     "test": "ng test",
     "lint": "ng lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anionDev/ngx-darkmode-toggle-button.git"
+  },
+  "keywords": [
+    "angular",
+    "material",
+    "dark",
+    "darkmode",
+    "theme",
+    "design",
+    "ui"
+  ],
+  "author": "Marius Göcke <marius.goecke@gmail.com>",
+  "license": "ISC",
   "private": false,
   "dependencies": {
     "@angular/animations": "~14.0.0",
