@@ -1,6 +1,6 @@
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { NgxDarkmodeToggleButtonModule } from './app/ngx-darkmode-toggle-button.module';
+import { NgxDarkmodeToggleButtonModule } from './ngx-darkmode-toggle-button/ngx-darkmode-toggle-button.module';
 import { environment } from './environments/environment';
 
 if (environment.production) {

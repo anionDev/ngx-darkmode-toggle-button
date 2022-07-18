@@ -12,7 +12,7 @@ def common_tasks():
     sc = ScriptCollectionCore()
     version = sc.getversion_from_arguments_or_gitversion(file, sys.argv)
     sc.update_version_of_codeunit_to_project_version(file, version)
-    sc.replace_version_in_packagejson_file(GeneralUtilities.resolve_relative_path("./TODO/package.json", folder_of_current_file), version)
+    sc.replace_version_in_packagejson_file(GeneralUtilities.resolve_relative_path("../package.json", folder_of_current_file), version)
 
 
 if __name__ == "__main__":
