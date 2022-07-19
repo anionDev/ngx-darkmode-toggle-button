@@ -7,8 +7,12 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
 import { DesignPresenterComponent } from './design-presenter/design-presenter.component';
 import { NgxDarkmodeService } from './ngx-darkmode/ngx-darkmode.service';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxDarkmodeToggleButtonComponent } from './ngx-darkmode-toggle-button/ngx-darkmode-toggle-button.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { MatStepperModule } from '@angular/material/stepper';
 
 @NgModule({
   declarations: [
@@ -25,6 +29,10 @@ import { NgxDarkmodeToggleButtonComponent } from './ngx-darkmode-toggle-button/n
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+    MatStepperModule,
   ],
   providers: [
     NgxDarkmodeService,

@@ -1,7 +1,7 @@
 import os
 import sys
 from pathlib import Path
-from TasksForCommonProjectStructure import TasksForCommonProjectStructure
+from ScriptCollection.TasksForCommonProjectStructure import TasksForCommonProjectStructure
 
 
 def run_testcases():

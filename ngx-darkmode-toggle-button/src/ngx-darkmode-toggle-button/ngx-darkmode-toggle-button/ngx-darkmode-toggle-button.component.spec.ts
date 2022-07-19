@@ -7,9 +7,9 @@ describe('NgxDarkmodeToggleButtonComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgxDarkmodeToggleButtonComponent ]
+      declarations: [NgxDarkmodeToggleButtonComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NgxDarkmodeToggleButtonComponent);
     component = fixture.componentInstance;
